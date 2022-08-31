@@ -16,6 +16,7 @@ const connect = function() {
     conn.write("Name: KB");
   });
 
+
   // code that does something when the connection is first established
   conn.on("data", (info) => {
     console.log("Data received!");
