@@ -15,6 +15,7 @@ const connect = function() {
   });
   conn.on("connect", () => {
     conn.write("Name: KB");
+    conn.write("Say: Here I go!");
   });
 
 
